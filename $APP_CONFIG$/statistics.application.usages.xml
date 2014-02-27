@@ -14,16 +14,16 @@
       <project id="consulo-gradle" values="groovy,consulo-plugin" />
       <project id="consulo-handlebars" values="consulo-plugin" />
       <project id="consulo-tasks" values="consulo-plugin" />
-      <project id="consulo-dart" values="consulo-plugin" />
       <project id="tiles2-plugin" values="consulo-plugin" />
+      <project id="consulo-dart" values="consulo-plugin" />
       <project id="consulo-haxe" values="consulo-plugin" />
-      <project id="consulo-persistence" values="consulo-plugin" />
       <project id="consulo-fenom" values="consulo-plugin" />
+      <project id="consulo-persistence" values="consulo-plugin" />
       <project id="consulo-beans-validator" values="consulo-plugin" />
       <project id="groovyMaven" values="groovy" />
       <project id="consulo-erlang" values="consulo-plugin" />
-      <project id="consulo-soy" values="consulo-plugin" />
       <project id="consulo-google-guice" values="consulo-plugin" />
+      <project id="consulo-soy" values="consulo-plugin" />
       <project id="consulo-osgi" values="consulo-plugin" />
       <project id="consulo-devkit" values="consulo-plugin" />
       <project id="consulo-bnf" values="consulo-plugin" />
@@ -51,14 +51,14 @@
       <project id="consulo-rest" values="consulo-plugin" />
       <project id="consulo-apache-ant-incubator" values="consulo-plugin" />
       <project id="consulo-play" values="consulo-plugin,groovy" />
-      <project id="consulo-github" values="consulo-plugin" />
       <project id="consulo-ui-designer-core" values="consulo-plugin" />
+      <project id="consulo-github" values="consulo-plugin" />
       <project id="consulo-angularjs" values="consulo-plugin" />
-      <project id="consulo-ruby2" values="consulo-plugin" />
       <project id="consulo-xtend" values="consulo-plugin" />
+      <project id="consulo-ruby2" values="consulo-plugin" />
       <project id="consulo-java" values="consulo-plugin" />
-      <project id="consulo-testng" values="consulo-plugin" />
       <project id="consulo-apache-tomcat" values="consulo-plugin" />
+      <project id="consulo-testng" values="consulo-plugin" />
       <project id="consulo-ui-designer" values="consulo-plugin" />
       <project id="consulo-css" values="consulo-plugin" />
       <project id="idea-silverstripe" values="consulo-plugin" />
@@ -66,107 +66,38 @@
       <project id="consulo-manifest" values="consulo-plugin" />
       <project id="consulo-maven" values="consulo-plugin" />
       <project id="consulo-apache-velocity" values="consulo-plugin" />
-      <project id="consulo-properties" values="consulo-plugin" />
       <project id="consulo-apache-ant" values="consulo-plugin" />
-      <project id="idea-configuration-server" values="consulo-plugin" />
+      <project id="consulo-properties" values="consulo-plugin" />
       <project id="consulo-ruby" values="consulo-plugin" />
-      <project id="consulo-twig" values="consulo-plugin" />
+      <project id="idea-configuration-server" values="consulo-plugin" />
       <project id="consulo-groovy" values="groovy,consulo-plugin" />
+      <project id="consulo-twig" values="consulo-plugin" />
       <project id="consulo-python" values="consulo-plugin" />
       <project id="consulo-cfml" values="consulo-plugin" />
       <project id="consulo-google-dart" values="consulo-plugin" />
       <project id="consulo-xml" values="consulo-plugin" />
       <project id="must-be.org" values="consulo-plugin" />
-      <project id="core" values="consulo-plugin" />
-      <project id="consulo-junit" values="consulo-plugin" />
-      <project id="consulo-cucumber" values="consulo-plugin,groovy" />
       <project id="consulo-google-protobuf" values="consulo-plugin" />
+      <project id="consulo-cucumber" values="consulo-plugin,groovy" />
+      <project id="consulo-junit" values="consulo-plugin" />
+      <project id="core" values="consulo-plugin" />
       <project id="consulo-mybatis" values="consulo-plugin" />
       <project id="google-gwt" values="consulo-plugin" />
-    </group>
-    <group name="run-configuration-type">
-      <project id="preprocessingTest" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-java-web" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-intellij" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-google-app-engine-api" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-ceylon" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-handlebars" values="JUnit" />
-      <project id="napile.compiler.core" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-haskell" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-dart" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-haxe" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-erlang" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-devkit" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-apache-thrift" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="www2" values="#TomcatConfigurationType" />
-      <project id="consulo-google-gwt" values="JUnit,#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-javascript" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-php" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-emmet" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="untitled30" values="Unknown" />
-      <project id="trunk" values="JavaApplication" />
-      <project id="consulo-git" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-db-navigator" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-google-go" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-lombok" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-antlr4" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="google-app-engine-api" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="naco.ws" values="#PlayJavaConfigurationType" />
-      <project id="consulo-dotnet" values="JavaApplication,#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="google-app-engine" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-ocaml" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-bash" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-markdown" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="www" values="#TomcatConfigurationType" />
-      <project id="consulo-apache-ant-incubator" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-terminal" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="JspHelloWorld" values="#TomcatConfigurationType,google-app-engine-deploy.Local" />
-      <project id="DotNetTestProject" values="#DotNetConfigurationType" />
-      <project id="consulo-github" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-xtend" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="DotNetHelloWorldFromConsulo" values="#DotNetConfigurationType" />
-      <project id="consulo" values="JavaApplication" />
-      <project id="google-chrome-consulo-connector" values="JavaApplication" />
-      <project id="consulo-coffescript" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-java" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-apache-tomcat" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-ui-designer" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-css" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="bashsupport" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consuloTest" values="GdbRunConfigurationType" />
-      <project id="javascript" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-cpp" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-lua" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-ruby" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="idea-configuration-server" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-groovy" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-twig" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-python" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-google-dart" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-xml" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-restclient" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-configuration-server" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="napile.web" values="#PlayJavaConfigurationType" />
-      <project id="consulo-sql" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="must-be.org" values="JavaApplication,#org.jetbrains.idea.devkit.run.PluginConfigurationType,#TomcatConfigurationType" />
-      <project id="consulo-google-protobuf" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-freemarker" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
-      <project id="consulo-napile" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
     </group>
     <group name="language-level">
       <project id="preprocessingTest" values="JDK_1_6" />
       <project id="consulo-java-web" values="JDK_1_6" />
       <project id="csharpBytecodeLibrary" values="JDK_1_6" />
-      <project id="untitledUITest" values="JDK_1_6" />
       <project id="angularjs-plugin" values="JDK_1_6" />
+      <project id="untitledUITest" values="JDK_1_6" />
       <project id="consulo-psiviewer" values="JDK_1_6" />
-      <project id="consulo-gradle" values="JDK_1_6" />
       <project id="consulo-handlebars" values="JDK_1_6" />
+      <project id="consulo-gradle" values="JDK_1_6" />
       <project id="consulo-tasks" values="JDK_1_6" />
       <project id="consulo-haskell" values="JDK_1_6" />
       <project id="tiles2-plugin" values="JDK_1_6" />
-      <project id="consulo-persistence" values="JDK_1_6" />
       <project id="consulo-fenom" values="JDK_1_6" />
+      <project id="consulo-persistence" values="JDK_1_6" />
       <project id="consulo-beans-validator" values="JDK_1_6" />
       <project id="consulo-yaml" values="JDK_1_6" />
       <project id="groovyMaven" values="JDK_1_6" />
@@ -179,15 +110,15 @@
       <project id="IdeaGDB" values="JDK_1_6" />
       <project id="consulo-fantom" values="JDK_1_6" />
       <project id="consulo-google-gwt" values="JDK_1_6" />
-      <project id="consulo-php" values="JDK_1_6" />
       <project id="consulo-xpath" values="JDK_1_6" />
+      <project id="consulo-php" values="JDK_1_6" />
       <project id="consulo-emmet" values="JDK_1_6" />
       <project id="consulo-gettext" values="JDK_1_6" />
-      <project id="consulo-db-navigator" values="JDK_1_6" />
       <project id="consulo-lombok" values="JDK_1_6" />
+      <project id="consulo-db-navigator" values="JDK_1_6" />
       <project id="CO-36" values="JDK_1_6" />
-      <project id="google-app-engine" values="JDK_1_6" />
       <project id="naco.ws" values="JDK_1_6" />
+      <project id="google-app-engine" values="JDK_1_6" />
       <project id="consulo-java-i18n" values="JDK_1_6" />
       <project id="ErFlyOnline" values="JDK_1_6" />
       <project id="consulo-xslt-debugger" values="JDK_1_6" />
@@ -195,16 +126,16 @@
       <project id="consulo-javaee" values="JDK_1_6" />
       <project id="consulo-markdown" values="JDK_1_6" />
       <project id="consulo-rest" values="JDK_1_6" />
-      <project id="consulo-apache-ant-incubator" values="JDK_1_6" />
       <project id="psiviewer" values="JDK_1_6" />
+      <project id="consulo-apache-ant-incubator" values="JDK_1_6" />
       <project id="JspHelloWorld" values="JDK_1_6" />
       <project id="untitled13" values="JDK_1_6" />
       <project id="consulo-play" values="JDK_1_6" />
-      <project id="javascriptDebugger" values="JDK_1_6" />
       <project id="consulo-angularjs" values="JDK_1_6" />
+      <project id="javascriptDebugger" values="JDK_1_6" />
       <project id="consulo-common" values="JDK_1_6" />
       <project id="consulo-xtend" values="JDK_1_6" />
-      <project id="consulo-ruby2" values="JDK_1_6,JDK_1_8" />
+      <project id="consulo-ruby2" values="JDK_1_8,JDK_1_6" />
       <project id="intellij-erlang" values="JDK_1_8,JDK_1_6" />
       <project id="google-chrome-consulo-connector" values="JDK_1_6" />
       <project id="consulo-java" values="JDK_1_6" />
@@ -262,55 +193,124 @@
       <project id="TestProjecForDot" values="JDK_1_6" />
       <project id="www" values="JDK_1_6" />
       <project id="consulo-terminal" values="JDK_1_6" />
-      <project id="consulo-github" values="JDK_1_6" />
       <project id="consulo-ui-designer-core" values="JDK_1_6" />
+      <project id="consulo-github" values="JDK_1_6" />
       <project id="untitled65" values="JDK_1_6" />
       <project id="consulo" values="JDK_1_6" />
-      <project id="consulo-coffescript" values="JDK_1_6" />
-      <project id="consulo-copyright" values="JDK_1_6" />
       <project id="consulo-emacs" values="JDK_1_7" />
+      <project id="consulo-copyright" values="JDK_1_6" />
+      <project id="consulo-coffescript" values="JDK_1_6" />
       <project id="consulo-testng" values="JDK_1_6" />
       <project id="consulo-ui-designer" values="JDK_1_6" />
       <project id="bashsupport" values="JDK_1_6" />
       <project id="consuloTest" values="JDK_1_8" />
       <project id="javascript" values="JDK_1_6" />
       <project id="consulo-manifest" values="JDK_1_6" />
-      <project id="consulo-maven" values="JDK_1_6" />
       <project id="consulo-cpp" values="JDK_1_6" />
+      <project id="consulo-maven" values="JDK_1_6" />
       <project id="consulo-apache-velocity" values="JDK_1_6" />
       <project id="consulo-apache-ant" values="JDK_1_6" />
-      <project id="consulo-ruby" values="JDK_1_6" />
       <project id="idea-configuration-server" values="JDK_1_6" />
+      <project id="consulo-ruby" values="JDK_1_6" />
       <project id="consulo-twig" values="JDK_1_6" />
       <project id="Hello" values="JDK_1_6" />
       <project id="cdmarf" values="JDK_1_6" />
       <project id="consulo-cfml" values="JDK_1_6" />
       <project id="consulo-google-dart" values="JDK_1_6" />
       <project id="consulo-xml" values="JDK_1_6" />
-      <project id="consulo-restclient" values="JDK_1_6" />
       <project id="consulo-configuration-server" values="JDK_1_6" />
+      <project id="consulo-restclient" values="JDK_1_6" />
       <project id="napile.web" values="JDK_1_6" />
-      <project id="consulo-google-protobuf" values="JDK_1_6" />
-      <project id="consulo-cucumber" values="JDK_1_6" />
       <project id="core" values="JDK_1_6" />
+      <project id="consulo-cucumber" values="JDK_1_6" />
+      <project id="consulo-google-protobuf" values="JDK_1_6" />
       <project id="consulo-freemarker" values="JDK_1_6" />
       <project id="consulo-mybatis" values="JDK_1_6" />
-      <project id="google-gwt" values="JDK_1_6" />
       <project id="consulo-napile" values="JDK_1_6" />
+      <project id="google-gwt" values="JDK_1_6" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="preprocessingTest" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-java-web" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-intellij" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-google-app-engine-api" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-ceylon" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-handlebars" values="JUnit" />
+      <project id="napile.compiler.core" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-haskell" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-dart" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-haxe" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-erlang" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-devkit" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-apache-thrift" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-google-gwt" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType,JUnit" />
+      <project id="www2" values="#TomcatConfigurationType" />
+      <project id="consulo-javascript" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-php" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="untitled30" values="Unknown" />
+      <project id="consulo-emmet" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="trunk" values="JavaApplication" />
+      <project id="consulo-lombok" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-google-go" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-db-navigator" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-git" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-antlr4" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="google-app-engine-api" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="naco.ws" values="#PlayJavaConfigurationType" />
+      <project id="consulo-dotnet" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType,JavaApplication" />
+      <project id="google-app-engine" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-ocaml" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-bash" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-markdown" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="www" values="#TomcatConfigurationType" />
+      <project id="consulo-apache-ant-incubator" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-terminal" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="JspHelloWorld" values="#TomcatConfigurationType,google-app-engine-deploy.Local" />
+      <project id="DotNetTestProject" values="#DotNetConfigurationType" />
+      <project id="consulo-github" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-xtend" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="DotNetHelloWorldFromConsulo" values="#DotNetConfigurationType" />
+      <project id="consulo" values="JavaApplication" />
+      <project id="google-chrome-consulo-connector" values="JavaApplication" />
+      <project id="consulo-coffescript" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-java" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-apache-tomcat" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-ui-designer" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-css" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="bashsupport" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consuloTest" values="GdbRunConfigurationType" />
+      <project id="javascript" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-cpp" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-lua" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="idea-configuration-server" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-ruby" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-twig" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-groovy" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-python" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-google-dart" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-xml" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-configuration-server" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-restclient" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="napile.web" values="#PlayJavaConfigurationType" />
+      <project id="must-be.org" values="JavaApplication,#TomcatConfigurationType,#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-sql" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-google-protobuf" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-freemarker" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
+      <project id="consulo-napile" values="#org.jetbrains.idea.devkit.run.PluginConfigurationType" />
     </group>
     <group name="vcs">
       <project id="consulo-java-web" values="Git" />
       <project id="angularjs-plugin" values="Git" />
       <project id="consulo-psiviewer" values="Git" />
-      <project id="consulo-gradle" values="Git" />
       <project id="consulo-handlebars" values="Git" />
+      <project id="consulo-gradle" values="Git" />
       <project id="consulo-tasks" values="Git" />
       <project id="consulo-haskell" values="Git" />
       <project id="consulo-fenom" values="Git" />
       <project id="consulo-yaml" values="Git" />
       <project id="consulo-erlang" values="Git" />
-      <project id="consulo-soy" values="Git" />
       <project id="consulo-google-guice" values="Git" />
+      <project id="consulo-soy" values="Git" />
       <project id="consulo-devkit" values="Git" />
       <project id="SimplePlugin" values="Git" />
       <project id="consulo-apache-thrift" values="Git" />
@@ -328,25 +328,25 @@
       <project id="consulo-xslt-debugger" values="Git" />
       <project id="consulo-markdown" values="Git" />
       <project id="consulo-rest" values="Git" />
-      <project id="psiviewer" values="Git" />
       <project id="consulo-apache-ant-incubator" values="Git" />
+      <project id="psiviewer" values="Git" />
       <project id="consulo-play" values="Git" />
-      <project id="consulo-common" values="Git" />
-      <project id="consulo-ruby2" values="Git" />
       <project id="consulo-xtend" values="Git" />
+      <project id="consulo-ruby2" values="Git" />
+      <project id="consulo-common" values="Git" />
       <project id="intellij-erlang" values="Git" />
       <project id="consulo-java" values="Git" />
-      <project id="consulo-apache-tomcat" values="Git" />
       <project id="local-consulo-compiler-client" values="Git" />
+      <project id="consulo-apache-tomcat" values="Git" />
       <project id="consulo-css" values="Git" />
       <project id="idea-silverstripe" values="Git" />
       <project id="consulo-properties" values="Git" />
       <project id="consulo-lua" values="Git" />
       <project id="consulo-apache-pig" values="Git" />
-      <project id="consulo-groovy" values="Git" />
       <project id="consulo-apache-subversion" values="Git" />
-      <project id="GodWorld.git" values="Git" />
+      <project id="consulo-groovy" values="Git" />
       <project id="consulo-python" values="Git" />
+      <project id="GodWorld.git" values="Git" />
       <project id="consulo-images" values="Git" />
       <project id="consulo-sql" values="Git" />
       <project id="must-be.org" values="Git" />
@@ -395,45 +395,201 @@
       <project id="bashsupport" values="Git" />
       <project id="javascript" values="Git" />
       <project id="consulo-manifest" values="Git" />
-      <project id="consulo-maven" values="Git" />
       <project id="consulo-cpp" values="Git" />
+      <project id="consulo-maven" values="Git" />
       <project id="consulo-apache-velocity" values="Git" />
-      <project id="idea-configuration-server" values="Git" />
       <project id="consulo-ruby" values="Git" />
+      <project id="idea-configuration-server" values="Git" />
       <project id="consulo-twig" values="Git" />
       <project id="consulo-cfml" values="Git" />
       <project id="consulo-google-dart" values="Git" />
       <project id="consulo-xml" values="Git" />
-      <project id="consulo-restclient" values="Git" />
       <project id="consulo-configuration-server" values="Git" />
+      <project id="consulo-restclient" values="Git" />
       <project id="napile.web" values="Git" />
-      <project id="consulo-cucumber" values="Git" />
       <project id="consulo-google-protobuf" values="Git" />
+      <project id="consulo-cucumber" values="Git" />
       <project id="consulo-freemarker" values="Git" />
       <project id="consulo-mybatis" values="Git" />
-      <project id="google-gwt" values="Git" />
       <project id="consulo-napile" values="Git" />
+      <project id="google-gwt" values="Git" />
     </group>
-    <group name="svn working copy format">
-      <project id="trunk" values="1.7" />
+    <group name="file-type">
+      <project id="preprocessingTest" values="XML,UNKNOWN" />
+      <project id="haxe" values="Images,PATCH,JavaScript,JAVA,ZIP_ARCHIVE,XML,haXe,PLAIN_TEXT,HTML,UNKNOWN,OCAML_ML_FILE" />
+      <project id="consulo-java-web" values="JFlex,XML,JAR_ARCHIVE,UNKNOWN,Images,Properties,PLAIN_TEXT,JAVA" />
+      <project id="untitled" values="UNKNOWN,HTML" />
+      <project id="csharpBytecodeLibrary" values="UNKNOWN,JAVA" />
+      <project id="angularjs-plugin" values="GUI_DESIGNER_FORM,XML,HTML,IDEA_MODULE,JAR_ARCHIVE,UNKNOWN,PLAIN_TEXT,JAVA,Markdown" />
+      <project id="untitledUITest" values="XML,UNKNOWN,JAR_ARCHIVE,JAVA,GUI_DESIGNER_FORM" />
+      <project id="consulo-psiviewer" values="UNKNOWN,Markdown,Images,PLAIN_TEXT,JAR_ARCHIVE,JAVA,XML" />
+      <project id="consulo-handlebars" values="UNKNOWN,GUI_DESIGNER_FORM,JAVA,JFlex,Images,JAR_ARCHIVE,PLAIN_TEXT,Properties,XML" />
+      <project id="consulo-gradle" values="Properties,JAVA,UNKNOWN,ZIP_ARCHIVE,PLAIN_TEXT,XML,VTL,HTML,JAR_ARCHIVE,Images,Groovy" />
+      <project id="consulo-tasks" values="GUI_DESIGNER_FORM,JAR_ARCHIVE,JFlex,XML,PLAIN_TEXT,JAVA,UNKNOWN,Images,JQL" />
+      <project id="consulo-haskell" values="Images,GUI_DESIGNER_FORM,PLAIN_TEXT,XML,JAVA,UNKNOWN" />
+      <project id="tiles2-plugin" values="Images,JAVA,DTD,PLAIN_TEXT,JAR_ARCHIVE,UNKNOWN,IDEA_MODULE,Properties,JSP,XML" />
+      <project id="consulo-persistence" values="UNKNOWN,Properties,MANIFEST,XML,JAVA" />
+      <project id="consulo-fenom" values="Images,JAR_ARCHIVE,PLAIN_TEXT,JFlex,UNKNOWN,XML,JAVA" />
+      <project id="consulo-beans-validator" values="JAVA,XML,HTML,Images,GUI_DESIGNER_FORM,Properties,UNKNOWN,JAR_ARCHIVE" />
+      <project id="consulo-yaml" values="UNKNOWN,JFlex,PLAIN_TEXT,JAVA,XML" />
+      <project id="groovyMaven" values="XML,Groovy,UNKNOWN" />
+      <project id="consulo-erlang" values="UNKNOWN,IDEA_MODULE,VTL,JAVA,XML,JAR_ARCHIVE,PLAIN_TEXT,Images,Markdown,GUI_DESIGNER_FORM,HTML,CSS,JFlex,Grammar" />
+      <project id="consulo-soy" values="Images,PLAIN_TEXT,Properties,UNKNOWN,XML,JAVA,JAR_ARCHIVE,JFlex" />
+      <project id="consulo-google-guice" values="HTML,XML,JAVA,PLAIN_TEXT,JAR_ARCHIVE,Properties,UNKNOWN" />
+      <project id="consulo-devkit" values="PLAIN_TEXT,Groovy,XML,VTL,Properties,JAVA,HTML,JAR_ARCHIVE,UNKNOWN,GUI_DESIGNER_FORM,IDEA_MODULE,Images" />
+      <project id="SimplePlugin" values="JFlex,Grammar,PLAIN_TEXT,IDEA_MODULE,Images,UNKNOWN,XML,JAVA" />
+      <project id="consulo-apache-thrift" values="JAVA,UNKNOWN,HTML,Images,Grammar,Properties,PLAIN_TEXT,XML,JFlex" />
+      <project id="IdeaGDB" values="GUI_DESIGNER_FORM,IDEA_MODULE,PLAIN_TEXT,UNKNOWN,JAVA,XML" />
+      <project id="consulo-google-gwt" values="DTD,JAR_ARCHIVE,JAVASCRIPT,JAVA,PLAIN_TEXT,UNKNOWN,XML,Images,JFlex" />
+      <project id="consulo-fantom" values="PLAIN_TEXT,XML,VTL,JAVA,Markdown,HTML,UNKNOWN,JAR_ARCHIVE,JFlex,Images,Properties" />
+      <project id="consulo-php" values="VTL,JAVA,UNKNOWN,JFlex,JAR_ARCHIVE,XML,HTML,PLAIN_TEXT,Properties,GUI_DESIGNER_FORM,Images" />
+      <project id="consulo-xpath" values="XHTML,XML,JFlex,UNKNOWN,VTL,Images,JAR_ARCHIVE,GUI_DESIGNER_FORM,Groovy,PLAIN_TEXT,HTML,JAVA,Markdown" />
+      <project id="consulo-emmet" values="GUI_DESIGNER_FORM,Properties,JAVA,UNKNOWN,XML,JAR_ARCHIVE,PLAIN_TEXT" />
+      <project id="consulo-gettext" values="XML,PLAIN_TEXT,JFlex,JAVA,UNKNOWN" />
+      <project id="consulo-db-navigator" values="Properties,Haskell,PLAIN_TEXT,XML,JFlex,UNKNOWN,DTD,Native,Images,HTML,CSS,JAR_ARCHIVE,GUI_DESIGNER_FORM,JAVA" />
+      <project id="consulo-lombok" values="JAR_ARCHIVE,Properties,Images,UNKNOWN,PLAIN_TEXT,Markdown,XML,JAVA" />
+      <project id="CO-36" values="PLAIN_TEXT,UNKNOWN,JAVA,XML" />
+      <project id="naco.ws" values="JAR_ARCHIVE,HTML,Images,JAVA,XML,PlayApplicationConf,JavaScript,Play Route File,PLAIN_TEXT,ZIP_ARCHIVE,CLASS,UNKNOWN,CSS" />
+      <project id="google-app-engine" values="VTL,IDEA_MODULE,HTML,UNKNOWN,JAVA,GUI_DESIGNER_FORM,Images,XML,JAR_ARCHIVE,PLAIN_TEXT" />
+      <project id="consulo-java-i18n" values="PLAIN_TEXT,JAR_ARCHIVE,UNKNOWN,GUI_DESIGNER_FORM,XML,JAVA" />
+      <project id="ErFlyOnline" values="JAVASCRIPT,UNKNOWN,JAVA,XML,PLAIN_TEXT,Images,JSP files (syntax highlighting only)" />
+      <project id="consulo-xslt-debugger" values="PLAIN_TEXT,UNKNOWN,XML,JAVA,Images,JAR_ARCHIVE,HTML" />
+      <project id="JavaEEAppJSPServlet" values="HTML,IDEA_MODULE,JAR_ARCHIVE,XML,JAVA,UNKNOWN" />
+      <project id="consulo-javaee" values="JAVA,GUI_DESIGNER_FORM,UNKNOWN,XML" />
+      <project id="TestConsulo2" values="UNKNOWN" />
+      <project id="consulo-markdown" values="Images,PLAIN_TEXT,GUI_DESIGNER_FORM,XML,Properties,UNKNOWN,CSS,JAR_ARCHIVE,JAVA" />
+      <project id="consulo-rest" values="JAR_ARCHIVE,UNKNOWN,PLAIN_TEXT,JFlex,XML,Properties,Images,JAVA" />
+      <project id="consulo-apache-ant-incubator" values="JavaScript,ZIP_ARCHIVE,Native,CSS,JAR_ARCHIVE,DTD,Images,Properties,XML,JSON,HTML,JAVA,UNKNOWN,Perl,GUI_DESIGNER_FORM,PLAIN_TEXT" />
+      <project id="psiviewer" values="XML,Images,JAR_ARCHIVE,UNKNOWN,PLAIN_TEXT,JAVA" />
+      <project id="JspHelloWorld" values="UNKNOWN,JAVA,JAR_ARCHIVE,XML,JSP" />
+      <project id="untitled13" values="JAVA,UNKNOWN,XML" />
+      <project id="DotNetTestProject" values="UNKNOWN,C#" />
+      <project id="consulo-play" values="JAR_ARCHIVE,JFlex,UNKNOWN,XML,HTML,JAVA,Images,GUI_DESIGNER_FORM,PLAIN_TEXT" />
+      <project id="consulo-angularjs" values="IDEA_MODULE,JAVA,PLAIN_TEXT,HTML,XML,JFlex,JAR_ARCHIVE,UNKNOWN" />
+      <project id="javascriptDebugger" values="JAVASCRIPT,UNKNOWN,JAR_ARCHIVE" />
+      <project id="consulo-common" values="JAVA,XML,HTML,JAR_ARCHIVE,UNKNOWN,PLAIN_TEXT" />
+      <project id="consulo-xtend" values="PLAIN_TEXT,JFlex,XML,VTL,Images,JAR_ARCHIVE,Properties,UNKNOWN,JAVA" />
+      <project id="consulo-ruby2" values="JFlex,ZIP_ARCHIVE,DTD,UNKNOWN,CSS,IDEA_MODULE,XML,HTML,GUI_DESIGNER_FORM,CONSULO_PROJECT,JAVA,Images,JAVASCRIPT,CONSULO_WORKSPACE,PLAIN_TEXT,Properties,JAR_ARCHIVE" />
+      <project id="DotNetHelloWorldFromConsulo" values="C#,UNKNOWN" />
+      <project id="intellij-erlang" values="Images,PLAIN_TEXT,JFlex,Grammar,VTL,XML,UNKNOWN,GUI_DESIGNER_FORM,IDEA_MODULE,JAVA,JAR_ARCHIVE,HTML" />
+      <project id="google-chrome-consulo-connector" values="HTML,XML,UNKNOWN,JAVASCRIPT,CSS,JSON,Images,JAVA,PLAIN_TEXT" />
+      <project id="consulo-java" values="HTML,Perl,JSP,CLASS,GUI_DESIGNER_FORM,Groovy,PLAIN_TEXT,MANIFEST,VTL,DTD,XML,JFlex,JAVA,Images,IDEA_MODULE,JAR_ARCHIVE,Properties,UNKNOWN,ZIP_ARCHIVE" />
+      <project id="consulo-apache-tomcat" values="UNKNOWN,GUI_DESIGNER_FORM,PLAIN_TEXT,JAR_ARCHIVE,JAVA,XML" />
+      <project id="local-consulo-compiler-client" values="JAVA,UNKNOWN,XML" />
+      <project id="consulo-css" values="PLAIN_TEXT,Images,JFlex,XML,CSS,JAR_ARCHIVE,UNKNOWN,JAVA,GUI_DESIGNER_FORM" />
+      <project id="idea-silverstripe" values="XML,UNKNOWN,Markdown,JFlex,HTML,JAR_ARCHIVE,Grammar,Images,PLAIN_TEXT,JAVA,Properties" />
+      <project id="consulo-properties" values="DTD,Properties,XML,UNKNOWN,GUI_DESIGNER_FORM,Markdown,PLAIN_TEXT,JAR_ARCHIVE,JAVA,Images,JFlex" />
+      <project id="consulo-lua" values="GUI_DESIGNER_FORM,PLAIN_TEXT,JAR_ARCHIVE,UNKNOWN,VTL,HTML,JFlex,XML,CSS,Properties,Images,JAVA" />
+      <project id="consulo-apache-pig" values="JFlex,JAVA,Images,PLAIN_TEXT,Grammar,UNKNOWN,XML" />
+      <project id="consulo-apache-subversion" values="GUI_DESIGNER_FORM,Images,JAVA,XML,Properties,Markdown,ZIP_ARCHIVE,UNKNOWN,JAR_ARCHIVE,PLAIN_TEXT" />
+      <project id="consulo-groovy" values="Properties,JAVA,JFlex,GUI_DESIGNER_FORM,JSP,Images,UNKNOWN,HTML,Groovy,PLAIN_TEXT,VTL,ZIP_ARCHIVE,JAR_ARCHIVE,XML" />
+      <project id="GodWorld.git" values="Images,UNKNOWN,HTML,IDEA_MODULE,ZIP_ARCHIVE,XML,DBN-SQL,Properties,JAR_ARCHIVE,PLAIN_TEXT,PHP,JAVA,DTD" />
+      <project id="consulo-python" values="VTL,PLAIN_TEXT,JAVA,Native,GUI_DESIGNER_FORM,XML,JFlex,UNKNOWN,JavaScript,JAR_ARCHIVE,Images,HTML,Properties,CSS" />
+      <project id="consulo-images" values="Images,UNKNOWN,GUI_DESIGNER_FORM,JAVA,PLAIN_TEXT,XML,Properties" />
+      <project id="must-be.org" values="Images,HTML,Properties,XML,PLAIN_TEXT,JavaScript,CSS,JAVA,ZIP_ARCHIVE,JAR_ARCHIVE,UNKNOWN,JSP" />
+      <project id="consulo-sql" values="JFlex,DTD,Images,GUI_DESIGNER_FORM,UNKNOWN,Properties,JAR_ARCHIVE,PLAIN_TEXT,JAVA,HTML,XML,Native" />
+      <project id="consulo-junit" values="JAR_ARCHIVE,PLAIN_TEXT,HTML,XML,Properties,JAVA,VTL,UNKNOWN,GUI_DESIGNER_FORM" />
+      <project id="JythonTest" values="Python,UNKNOWN" />
+      <project id="testprojectExclude" values="UNKNOWN" />
+      <project id="consulo-makefile" values="JAVA,XML,Images,JFlex,PLAIN_TEXT,Properties,UNKNOWN" />
+      <project id="lesscss4j" values="JAVA,PLAIN_TEXT,XML,JAR_ARCHIVE,UNKNOWN" />
+      <project id="CppTools" values="VTL,XML,IDEA_MODULE,JFlex,DTD,C/C++,UNKNOWN,HTML,PLAIN_TEXT,Properties,GUI_DESIGNER_FORM,JAVA,Markdown,Images" />
+      <project id="consulo-spring" values="PLAIN_TEXT,UNKNOWN,VTL,GUI_DESIGNER_FORM,Images,JAR_ARCHIVE,HTML,Properties,XML,DTD,JAVA,JFlex" />
+      <project id="consulo-velocity" values="UNKNOWN,Images,IDEA_MODULE,PLAIN_TEXT,JFlex,XML,Properties,VTL,JAR_ARCHIVE,JAVA,HTML" />
+      <project id="consulo-intellij" values="CLASS,JAR_ARCHIVE,Images,JAVA,UNKNOWN,XML,IDEA_MODULE,PLAIN_TEXT" />
+      <project id="consulo-google-app-engine-api" values="UNKNOWN,Native,PLAIN_TEXT,Images,HTML,XML,Properties,GUI_DESIGNER_FORM,JAR_ARCHIVE,JAVA" />
+      <project id="consulo-jflex" values="JFlex,GUI_DESIGNER_FORM,UNKNOWN,XML,Images,Properties,JAVA,PLAIN_TEXT,JAR_ARCHIVE" />
+      <project id="napile.classpath.draft" values="Properties,PLAIN_TEXT,UNKNOWN,Napile,XML" />
+      <project id="consulo-ceylon" values="JAVA,IDEA_MODULE,PLAIN_TEXT,UNKNOWN,JFlex,Images,Grammar,JAR_ARCHIVE,XML,VTL" />
+      <project id="napile.compiler.core" values="Napile,ZIP_ARCHIVE,XML,Grammar,JAVA,IDEA_MODULE,UNKNOWN,PLAIN_TEXT,JAR_ARCHIVE,Markdown,NXML,VTL,JFlex,Properties" />
+      <project id="RequireForDistTest" values="JAVA,UNKNOWN" />
+      <project id="consulo-dart" values="VTL,Properties,Dart,GUI_DESIGNER_FORM,UNKNOWN,XML,PLAIN_TEXT,HTML,Markdown,JFlex,Grammar,JAVA,Images,JAR_ARCHIVE,ZIP_ARCHIVE" />
+      <project id="untitled48" values="UNKNOWN,JAVA,JAR_ARCHIVE" />
+      <project id="consulo-haxe" values="Grammar,VTL,JAR_ARCHIVE,UNKNOWN,haXe,JFlex,HTML,Images,XML,Properties,PLAIN_TEXT,JAVA,GUI_DESIGNER_FORM" />
+      <project id="consulo-osgi" values="MANIFEST,Properties,IDEA_MODULE,BND,JAR_ARCHIVE,Images,PLAIN_TEXT,XML,UNKNOWN,HTML,GUI_DESIGNER_FORM,JAVA" />
+      <project id="consulo-batch" values="JAVA,Images,UNKNOWN,Properties,JFlex,XML,GUI_DESIGNER_FORM,PLAIN_TEXT" />
+      <project id="consulo-bnf" values="HTML,JAVA,PLAIN_TEXT,Grammar,MANIFEST,UNKNOWN,XML,JFlex,Properties,JAR_ARCHIVE,Images" />
+      <project id="consulo-javafx" values="XML,JavaScript,VTL,JAR_ARCHIVE,PLAIN_TEXT,Groovy,ZIP_ARCHIVE,JAVA,GUI_DESIGNER_FORM,Images,CSS,HTML,UNKNOWN" />
+      <project id="www2" values="CSS,XML,Properties,Images,UNKNOWN,JSP,JAVA,JAVASCRIPT" />
+      <project id="consulo-regexp" values="Images,JAVA,UNKNOWN,HTML,XML,JFlex,GUI_DESIGNER_FORM,PLAIN_TEXT,RegExp,Markdown" />
+      <project id="consulo-clojure" values="JAR_ARCHIVE,Properties,XML,JFlex,PLAIN_TEXT,GUI_DESIGNER_FORM,JAVA,HTML,Images,VTL,ZIP_ARCHIVE,UNKNOWN" />
+      <project id="consulo-javascript" values="GUI_DESIGNER_FORM,HTML,UNKNOWN,JAVA,Properties,Images,Markdown,XML,JFlex,JAR_ARCHIVE,PLAIN_TEXT" />
+      <project id="consulo-relaxng" values="GUI_DESIGNER_FORM,DTD,XML,PLAIN_TEXT,JAR_ARCHIVE,HTML,JAVA,ZIP_ARCHIVE,UNKNOWN" />
+      <project id="untitled30" values="PLAIN_TEXT,UNKNOWN" />
+      <project id="trunk" values="UNKNOWN,Properties,DTD,JAR_ARCHIVE,XML,PLAIN_TEXT,JAVA,HTML" />
+      <project id="fdsfsdfds" values="UNKNOWN" />
+      <project id="consulo-google-go" values="HTML,GUI_DESIGNER_FORM,JAVA,XML,Properties,PLAIN_TEXT,Images,UNKNOWN,JFlex,VTL,JAR_ARCHIVE" />
+      <project id="consulo-git" values="GUI_DESIGNER_FORM,Groovy,Images,Properties,ZIP_ARCHIVE,XML,UNKNOWN,PATCH,JAR_ARCHIVE,JAVA,PLAIN_TEXT,Markdown" />
+      <project id="consulo-antlr4" values="PLAIN_TEXT,JAVA,UNKNOWN,ANTLR v4 grammar file,Images,JAR_ARCHIVE,XML" />
+      <project id="fenom" values="JSON,PLAIN_TEXT,YAML,Markdown,PHP,XML,UNKNOWN" />
+      <project id="google-app-engine-api" values="JAR_ARCHIVE,UNKNOWN,CSS,GUI_DESIGNER_FORM,Images,XML,Properties,JAVA,PLAIN_TEXT,HTML,JAVASCRIPT,Native,PHP,Python" />
+      <project id="consulo-dotnet" values="HTML,Properties,PLAIN_TEXT,JAR_ARCHIVE,Native,UNKNOWN,XML,C#,JAVA" />
+      <project id="consulo-intelliLang" values="UNKNOWN,GUI_DESIGNER_FORM,HTML,PLAIN_TEXT,JAR_ARCHIVE,XML,JAVA" />
+      <project id="consulo-spellchecker" values="XML,JSP,UNKNOWN,JAVA,HTML,Properties,Images,GUI_DESIGNER_FORM,PLAIN_TEXT" />
+      <project id="consulo-ocaml" values="UNKNOWN,JFlex,GUI_DESIGNER_FORM,JAVA,PLAIN_TEXT,Images,XML" />
+      <project id="consulo-bash" values="XML,PLAIN_TEXT,UNKNOWN,Properties,JFlex,JAR_ARCHIVE,Images,GUI_DESIGNER_FORM,JAVA,HTML" />
+      <project id="consulo-napile.moduling" values="Images,UNKNOWN,JAR_ARCHIVE,VTL,PLAIN_TEXT,JAVA,XML,HTML" />
+      <project id="android" values="XML,Images,Properties,HTML,GUI_DESIGNER_FORM,JAVA,VTL,PLAIN_TEXT,UNKNOWN,JAR_ARCHIVE,IDEA_MODULE,ZIP_ARCHIVE,JFlex" />
+      <project id="TestProjecForDot" values="UNKNOWN,JAVA" />
+      <project id="www" values="JAVASCRIPT,XML,UNKNOWN,JSP,CSS,PLAIN_TEXT,Images" />
+      <project id="consulo-terminal" values="Images,PLAIN_TEXT,JAR_ARCHIVE,XML,JAVA,UNKNOWN,GUI_DESIGNER_FORM" />
+      <project id="consulo-ui-designer-core" values="JAVA,XML,UNKNOWN,JAR_ARCHIVE,Properties,PLAIN_TEXT,Images" />
+      <project id="consulo-github" values="GUI_DESIGNER_FORM,JAR_ARCHIVE,XML,UNKNOWN,Images,PLAIN_TEXT,Markdown,JAVA" />
+      <project id="untitled65" values="JAVA,PLAIN_TEXT,Properties,JAR_ARCHIVE,UNKNOWN" />
+      <project id="untitled63" values="UNKNOWN" />
+      <project id="consulo" values="MANIFEST,IDEA_MODULE,JAR_ARCHIVE,XML,JFlex,HTML,Properties,Markdown,Images,VTL,Native,DTD,ZIP_ARCHIVE,PLAIN_TEXT,UNKNOWN,Groovy,JAVA,PATCH,GUI_DESIGNER_FORM,CSS" />
+      <project id="consulo-emacs" values="GUI_DESIGNER_FORM,Images,IDEA_MODULE,JAVA,UNKNOWN,HTML,ARCHIVE,Native,PLAIN_TEXT,XML,Properties" />
+      <project id="consulo-copyright" values="UNKNOWN,JAVA,PLAIN_TEXT,XML,VTL,GUI_DESIGNER_FORM" />
+      <project id="consulo-coffescript" values="UNKNOWN,JFlex,PLAIN_TEXT,Images,XML,JAVA" />
+      <project id="consulo-testng" values="PLAIN_TEXT,HTML,JAVA,VTL,Images,GUI_DESIGNER_FORM,XML,ZIP_ARCHIVE,DTD,JAR_ARCHIVE,UNKNOWN" />
+      <project id="consulo-ui-designer" values="XML,PLAIN_TEXT,JAR_ARCHIVE,Properties,GUI_DESIGNER_FORM,JAVA,UNKNOWN,HTML,Images" />
+      <project id="bashsupport" values="JAR_ARCHIVE,XML,JAVA,UNKNOWN,Images,PLAIN_TEXT,Properties,JFlex,HTML,GUI_DESIGNER_FORM" />
+      <project id="consuloTest" values="Protobuf,SQL files,JAR_ARCHIVE,Dart,Grammar,MANIFEST,CSS,Handlebars/Mustache,XML,Python,Pig file,Markdown,JAVA,GetText,Google Go,HTML,UNKNOWN,XTEND,BND,PHP,JAVASCRIPT,PLAIN_TEXT,Groovy" />
+      <project id="javascript" values="Images,Properties,JFlex,HTML,XML,GUI_DESIGNER_FORM,JAVA,JAR_ARCHIVE,JAVASCRIPT,UNKNOWN,PLAIN_TEXT" />
+      <project id="consulo-manifest" values="XML,HTML,MANIFEST,Images,JAVA,PLAIN_TEXT,UNKNOWN" />
+      <project id="consulo-maven" values="ZIP_ARCHIVE,PLAIN_TEXT,GUI_DESIGNER_FORM,UNKNOWN,VTL,Properties,JAVA,Images,HTML,XML,Groovy,JAR_ARCHIVE" />
+      <project id="consulo-cpp" values="XML,UNKNOWN,Properties,JAVA,JFlex,Images,IDEA_MODULE,GUI_DESIGNER_FORM,PLAIN_TEXT" />
+      <project id="consulo-apache-velocity" values="UNKNOWN,JAR_ARCHIVE,HTML,IDEA_MODULE,PLAIN_TEXT,XML,Images,JAVA,JFlex,VTL,Properties" />
+      <project id="consulo-apache-ant" values="DTD,XML,UNKNOWN,GUI_DESIGNER_FORM,PLAIN_TEXT,Properties,HTML,JAR_ARCHIVE,JAVA" />
+      <project id="idea-configuration-server" values="GUI_DESIGNER_FORM,UNKNOWN,Properties,XML,JAVA,JAR_ARCHIVE" />
+      <project id="consulo-ruby" values="PLAIN_TEXT,JavaScript,Images,Properties,HTML,JFlex,CSS,ZIP_ARCHIVE,JAVA,GUI_DESIGNER_FORM,UNKNOWN,JAR_ARCHIVE,IDEA_MODULE,VTL,XML" />
+      <project id="0.7_0" values="UNKNOWN,HTML,XML,Images,PLAIN_TEXT,JAVASCRIPT" />
+      <project id="consulo-twig" values="Properties,XML,PLAIN_TEXT,JAVA,JAR_ARCHIVE,JFlex,UNKNOWN" />
+      <project id="Hello" values="PLAIN_TEXT,CLASS,JAVA,Images,XML,UNKNOWN,JAVASCRIPT,HTML" />
+      <project id="untitled2" values="XML,MANIFEST,UNKNOWN,CSS" />
+      <project id="cdmarf" values="JAVA,XML,ARCHIVE,UNKNOWN" />
+      <project id="consulo-cfml" values="PLAIN_TEXT,JAVA,JAR_ARCHIVE,GUI_DESIGNER_FORM,Properties,UNKNOWN,Images,XML,HTML,JFlex,VTL,IDEA_MODULE" />
+      <project id="consulo-google-dart" values="HTML,Properties,JAR_ARCHIVE,Grammar,XML,ZIP_ARCHIVE,Images,PLAIN_TEXT,JFlex,JAVA,VTL,GUI_DESIGNER_FORM,UNKNOWN" />
+      <project id="consulo-xml" values="UNKNOWN,Perl,JFlex,PLAIN_TEXT,GUI_DESIGNER_FORM,JAR_ARCHIVE,JAVA,HTML,Properties,ZIP_ARCHIVE,DTD,XML" />
+      <project id="consulo-configuration-server" values="UNKNOWN,JAVA,GUI_DESIGNER_FORM,Properties,XML,JAR_ARCHIVE,PLAIN_TEXT" />
+      <project id="consulo-restclient" values="UNKNOWN,GUI_DESIGNER_FORM,Images,XML,JAR_ARCHIVE,PLAIN_TEXT,JAVA" />
+      <project id="g-app-test" values="Properties,Images,XML,HTML,Google Go,Python,PHP,JAVA,JAR_ARCHIVE,UNKNOWN,CLASS" />
+      <project id="napile.web" values="Properties,CLASS,XML,Play Route File,PLAIN_TEXT,UNKNOWN,IDEA_MODULE,CSS,Images,HTML,JAR_ARCHIVE,JAVA,JAVASCRIPT,PlayApplicationConf,Play" />
+      <project id="consulo-google-protobuf" values="XML,JFlex,Grammar,HTML,JAVA,Properties,UNKNOWN,PLAIN_TEXT,Images,JAR_ARCHIVE,VTL" />
+      <project id="core" values="Images,JAVA,HTML,VTL,Properties,GUI_DESIGNER_FORM,IDEA_MODULE,DTD,XML,UNKNOWN" />
+      <project id="consulo-cucumber" values="JAVA,PLAIN_TEXT,UNKNOWN,Images,XML,VTL,HTML,Properties,GUI_DESIGNER_FORM,JAR_ARCHIVE,Groovy" />
+      <project id="consulo-freemarker" values="UNKNOWN,XML,Images,JAVA,JFlex,PLAIN_TEXT" />
+      <project id="consulo-mybatis" values="UNKNOWN,JAR_ARCHIVE,PLAIN_TEXT,Images,XML,JAVA" />
+      <project id="google-gwt" values="XML,Properties,CLASS,Images,HTML,UNKNOWN,JAR_ARCHIVE,PLAIN_TEXT,GUI_DESIGNER_FORM,VTL,JAVA" />
+      <project id="consulo-napile" values="GUI_DESIGNER_FORM,JAR_ARCHIVE,Properties,Grammar Live Preview,VTL,UNKNOWN,HTML,JAVA,PLAIN_TEXT,ZIP_ARCHIVE,Images,IDEA_MODULE,XML" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="lesscss4j" values="JavaApplication" />
       <project id="TestProjecForDot" values="JavaApplication" />
       <project id="consulo-apache-ant-incubator" values="JavaApplication" />
-      <project id="csharpBytecodeLibrary" values="JavaApplication" />
       <project id="consulo-google-app-engine-api" values="JUnit" />
+      <project id="csharpBytecodeLibrary" values="JavaApplication" />
       <project id="untitledUITest" values="JavaApplication" />
       <project id="napile.classpath.draft" values="#org.napile.idea.plugin.run.NapileConfigurationType" />
-      <project id="untitled65" values="JavaApplication" />
       <project id="napile.compiler.core" values="JUnit" />
+      <project id="untitled65" values="JavaApplication" />
       <project id="RequireForDistTest" values="JavaApplication" />
       <project id="local-consulo-compiler-client" values="JavaApplication" />
       <project id="untitled48" values="JavaApplication" />
       <project id="consulo-css" values="JUnit" />
       <project id="groovyMaven" values="JavaApplication" />
       <project id="consulo-yaml" values="JUnit" />
-      <project id="consuloTest" values="GoApplicationRunConfiguration,PythonConfigurationType,JavaApplication" />
+      <project id="consuloTest" values="PythonConfigurationType,GoApplicationRunConfiguration,JavaApplication" />
       <project id="consulo-manifest" values="JUnit" />
       <project id="consulo-twig" values="JUnit" />
       <project id="consulo-php" values="JUnit,JavaApplication" />
@@ -442,169 +598,13 @@
       <project id="consulo-antlr4" values="JavaApplication" />
       <project id="CO-36" values="JavaApplication" />
       <project id="google-app-engine-api" values="JUnit" />
-      <project id="consulo-dotnet" values="JUnit,JavaApplication" />
-      <project id="naco.ws" values="JavaApplication" />
       <project id="must-be.org" values="JUnit" />
+      <project id="naco.ws" values="JavaApplication" />
+      <project id="consulo-dotnet" values="Unknown,JavaApplication" />
       <project id="JythonTest" values="PythonConfigurationType" />
     </group>
-    <group name="file-type">
-      <project id="preprocessingTest" values="XML,UNKNOWN" />
-      <project id="haxe" values="Images,JAVA,HTML,ZIP_ARCHIVE,JavaScript,OCAML_ML_FILE,haXe,UNKNOWN,PLAIN_TEXT,XML,PATCH" />
-      <project id="consulo-java-web" values="Images,UNKNOWN,XML,PLAIN_TEXT,JFlex,JAVA,JAR_ARCHIVE,Properties" />
-      <project id="untitled" values="UNKNOWN,HTML" />
-      <project id="csharpBytecodeLibrary" values="UNKNOWN,JAVA" />
-      <project id="untitledUITest" values="JAVA,GUI_DESIGNER_FORM,JAR_ARCHIVE,XML,UNKNOWN" />
-      <project id="angularjs-plugin" values="IDEA_MODULE,Markdown,JAR_ARCHIVE,XML,JAVA,PLAIN_TEXT,GUI_DESIGNER_FORM,HTML,UNKNOWN" />
-      <project id="consulo-psiviewer" values="JAR_ARCHIVE,Markdown,XML,Images,UNKNOWN,JAVA,PLAIN_TEXT" />
-      <project id="consulo-gradle" values="HTML,Images,ZIP_ARCHIVE,JAVA,VTL,PLAIN_TEXT,UNKNOWN,Groovy,JAR_ARCHIVE,Properties,XML" />
-      <project id="consulo-handlebars" values="XML,JAVA,Properties,GUI_DESIGNER_FORM,PLAIN_TEXT,Images,JFlex,JAR_ARCHIVE,UNKNOWN" />
-      <project id="consulo-tasks" values="JAVA,UNKNOWN,PLAIN_TEXT,JFlex,Images,GUI_DESIGNER_FORM,JAR_ARCHIVE,JQL,XML" />
-      <project id="consulo-haskell" values="XML,UNKNOWN,JAVA,GUI_DESIGNER_FORM,Images,PLAIN_TEXT" />
-      <project id="tiles2-plugin" values="JAR_ARCHIVE,Images,JAVA,IDEA_MODULE,JSP,XML,PLAIN_TEXT,DTD,Properties,UNKNOWN" />
-      <project id="consulo-persistence" values="XML,UNKNOWN,MANIFEST,Properties,JAVA" />
-      <project id="consulo-fenom" values="XML,PLAIN_TEXT,JFlex,Images,JAR_ARCHIVE,UNKNOWN,JAVA" />
-      <project id="consulo-beans-validator" values="GUI_DESIGNER_FORM,Images,HTML,JAR_ARCHIVE,UNKNOWN,JAVA,XML,Properties" />
-      <project id="consulo-yaml" values="XML,UNKNOWN,PLAIN_TEXT,JAVA,JFlex" />
-      <project id="groovyMaven" values="UNKNOWN,Groovy,XML" />
-      <project id="consulo-erlang" values="GUI_DESIGNER_FORM,Markdown,VTL,XML,JFlex,Images,CSS,IDEA_MODULE,Grammar,JAVA,UNKNOWN,HTML,JAR_ARCHIVE,PLAIN_TEXT" />
-      <project id="consulo-soy" values="Images,UNKNOWN,JAR_ARCHIVE,PLAIN_TEXT,JAVA,Properties,XML,JFlex" />
-      <project id="consulo-google-guice" values="UNKNOWN,JAVA,XML,JAR_ARCHIVE,Properties,HTML,PLAIN_TEXT" />
-      <project id="consulo-devkit" values="JAR_ARCHIVE,JAVA,Properties,Images,PLAIN_TEXT,IDEA_MODULE,Groovy,HTML,VTL,XML,UNKNOWN,GUI_DESIGNER_FORM" />
-      <project id="SimplePlugin" values="XML,JFlex,JAVA,Images,PLAIN_TEXT,UNKNOWN,IDEA_MODULE,Grammar" />
-      <project id="consulo-apache-thrift" values="Images,Properties,UNKNOWN,JFlex,JAVA,XML,PLAIN_TEXT,Grammar,HTML" />
-      <project id="IdeaGDB" values="UNKNOWN,GUI_DESIGNER_FORM,IDEA_MODULE,XML,PLAIN_TEXT,JAVA" />
-      <project id="consulo-fantom" values="JAR_ARCHIVE,UNKNOWN,Properties,PLAIN_TEXT,JAVA,JFlex,XML,Images,HTML,VTL,Markdown" />
-      <project id="consulo-google-gwt" values="DTD,XML,PLAIN_TEXT,JAVASCRIPT,JAVA,JFlex,Images,JAR_ARCHIVE,UNKNOWN" />
-      <project id="consulo-xpath" values="PLAIN_TEXT,Images,UNKNOWN,Markdown,JAR_ARCHIVE,HTML,JFlex,XHTML,Groovy,JAVA,VTL,XML,GUI_DESIGNER_FORM" />
-      <project id="consulo-php" values="PLAIN_TEXT,HTML,Images,GUI_DESIGNER_FORM,JAR_ARCHIVE,UNKNOWN,XML,JAVA,Properties,VTL,JFlex" />
-      <project id="consulo-emmet" values="XML,UNKNOWN,Properties,GUI_DESIGNER_FORM,PLAIN_TEXT,JAVA,JAR_ARCHIVE" />
-      <project id="consulo-gettext" values="XML,JAVA,UNKNOWN,JFlex,PLAIN_TEXT" />
-      <project id="consulo-lombok" values="JAVA,JAR_ARCHIVE,Markdown,PLAIN_TEXT,XML,UNKNOWN,Images,Properties" />
-      <project id="consulo-db-navigator" values="Native,Haskell,UNKNOWN,CSS,XML,Properties,PLAIN_TEXT,JAVA,Images,JAR_ARCHIVE,DTD,JFlex,HTML,GUI_DESIGNER_FORM" />
-      <project id="CO-36" values="PLAIN_TEXT,XML,JAVA,UNKNOWN" />
-      <project id="google-app-engine" values="XML,IDEA_MODULE,UNKNOWN,JAVA,Images,PLAIN_TEXT,HTML,JAR_ARCHIVE,VTL,GUI_DESIGNER_FORM" />
-      <project id="naco.ws" values="CSS,JavaScript,UNKNOWN,Play Route File,PLAIN_TEXT,ZIP_ARCHIVE,JAR_ARCHIVE,HTML,XML,PlayApplicationConf,Images,CLASS,JAVA" />
-      <project id="consulo-java-i18n" values="JAR_ARCHIVE,UNKNOWN,JAVA,GUI_DESIGNER_FORM,XML,PLAIN_TEXT" />
-      <project id="ErFlyOnline" values="JAVA,JSP files (syntax highlighting only),UNKNOWN,JAVASCRIPT,Images,XML,PLAIN_TEXT" />
-      <project id="consulo-xslt-debugger" values="HTML,JAR_ARCHIVE,UNKNOWN,XML,JAVA,Images,PLAIN_TEXT" />
-      <project id="JavaEEAppJSPServlet" values="UNKNOWN,XML,JAVA,IDEA_MODULE,HTML,JAR_ARCHIVE" />
-      <project id="TestConsulo2" values="UNKNOWN" />
-      <project id="consulo-javaee" values="GUI_DESIGNER_FORM,UNKNOWN,JAVA,XML" />
-      <project id="consulo-markdown" values="GUI_DESIGNER_FORM,UNKNOWN,CSS,Properties,PLAIN_TEXT,XML,Images,JAVA,JAR_ARCHIVE" />
-      <project id="consulo-rest" values="XML,Properties,UNKNOWN,JAVA,JFlex,Images,JAR_ARCHIVE,PLAIN_TEXT" />
-      <project id="psiviewer" values="JAVA,XML,PLAIN_TEXT,UNKNOWN,JAR_ARCHIVE,Images" />
-      <project id="consulo-apache-ant-incubator" values="ZIP_ARCHIVE,PLAIN_TEXT,JSON,HTML,JavaScript,Perl,Native,XML,Images,JAR_ARCHIVE,Properties,GUI_DESIGNER_FORM,JAVA,DTD,UNKNOWN,CSS" />
-      <project id="JspHelloWorld" values="JAVA,JAR_ARCHIVE,JSP,UNKNOWN,XML" />
-      <project id="untitled13" values="JAVA,XML,UNKNOWN" />
-      <project id="DotNetTestProject" values="C#,UNKNOWN" />
-      <project id="consulo-play" values="GUI_DESIGNER_FORM,JAVA,XML,UNKNOWN,PLAIN_TEXT,JFlex,HTML,Images,JAR_ARCHIVE" />
-      <project id="consulo-angularjs" values="PLAIN_TEXT,UNKNOWN,JAVA,XML,IDEA_MODULE,JAR_ARCHIVE,JFlex,HTML" />
-      <project id="javascriptDebugger" values="UNKNOWN,JAR_ARCHIVE,JAVASCRIPT" />
-      <project id="consulo-common" values="XML,JAVA,HTML,PLAIN_TEXT,UNKNOWN,JAR_ARCHIVE" />
-      <project id="consulo-xtend" values="PLAIN_TEXT,XML,UNKNOWN,VTL,JFlex,Images,Properties,JAVA,JAR_ARCHIVE" />
-      <project id="consulo-ruby2" values="JAR_ARCHIVE,DTD,CONSULO_WORKSPACE,HTML,JFlex,IDEA_MODULE,UNKNOWN,JAVA,Images,JAVASCRIPT,ZIP_ARCHIVE,CSS,PLAIN_TEXT,Properties,CONSULO_PROJECT,XML,GUI_DESIGNER_FORM" />
-      <project id="DotNetHelloWorldFromConsulo" values="UNKNOWN,C#" />
-      <project id="intellij-erlang" values="JFlex,JAR_ARCHIVE,GUI_DESIGNER_FORM,Grammar,HTML,IDEA_MODULE,PLAIN_TEXT,XML,UNKNOWN,VTL,JAVA,Images" />
-      <project id="google-chrome-consulo-connector" values="PLAIN_TEXT,JSON,CSS,Images,UNKNOWN,XML,HTML,JAVA,JAVASCRIPT" />
-      <project id="consulo-java" values="HTML,CLASS,Perl,UNKNOWN,JAR_ARCHIVE,JAVA,MANIFEST,ZIP_ARCHIVE,GUI_DESIGNER_FORM,DTD,VTL,XML,Images,PLAIN_TEXT,IDEA_MODULE,JFlex,Properties,JSP,Groovy" />
-      <project id="consulo-apache-tomcat" values="PLAIN_TEXT,XML,JAR_ARCHIVE,UNKNOWN,JAVA,GUI_DESIGNER_FORM" />
-      <project id="local-consulo-compiler-client" values="UNKNOWN,JAVA,XML" />
-      <project id="consulo-css" values="GUI_DESIGNER_FORM,Images,CSS,XML,UNKNOWN,JFlex,JAR_ARCHIVE,JAVA,PLAIN_TEXT" />
-      <project id="idea-silverstripe" values="Markdown,UNKNOWN,Grammar,Properties,HTML,XML,PLAIN_TEXT,JAR_ARCHIVE,Images,JAVA,JFlex" />
-      <project id="consulo-properties" values="JAVA,DTD,Properties,GUI_DESIGNER_FORM,UNKNOWN,JFlex,XML,JAR_ARCHIVE,Images,PLAIN_TEXT,Markdown" />
-      <project id="consulo-lua" values="JFlex,HTML,CSS,GUI_DESIGNER_FORM,PLAIN_TEXT,JAVA,XML,VTL,JAR_ARCHIVE,Images,Properties,UNKNOWN" />
-      <project id="consulo-apache-pig" values="PLAIN_TEXT,Images,JAVA,XML,JFlex,UNKNOWN,Grammar" />
-      <project id="consulo-apache-subversion" values="Markdown,JAVA,XML,JAR_ARCHIVE,UNKNOWN,ZIP_ARCHIVE,Images,PLAIN_TEXT,Properties,GUI_DESIGNER_FORM" />
-      <project id="consulo-groovy" values="Properties,JFlex,PLAIN_TEXT,ZIP_ARCHIVE,VTL,GUI_DESIGNER_FORM,JAVA,Images,Groovy,JSP,HTML,XML,JAR_ARCHIVE,UNKNOWN" />
-      <project id="GodWorld.git" values="PHP,Properties,IDEA_MODULE,UNKNOWN,JAVA,JAR_ARCHIVE,ZIP_ARCHIVE,PLAIN_TEXT,DBN-SQL,DTD,XML,Images,HTML" />
-      <project id="consulo-python" values="HTML,XML,Images,VTL,Native,JAR_ARCHIVE,GUI_DESIGNER_FORM,PLAIN_TEXT,CSS,Properties,JFlex,JAVA,UNKNOWN,JavaScript" />
-      <project id="consulo-images" values="Images,UNKNOWN,GUI_DESIGNER_FORM,XML,PLAIN_TEXT,Properties,JAVA" />
-      <project id="must-be.org" values="XML,UNKNOWN,JavaScript,JAR_ARCHIVE,Properties,JSP,CSS,PLAIN_TEXT,ZIP_ARCHIVE,JAVA,HTML,Images" />
-      <project id="consulo-sql" values="Native,JAVA,XML,JAR_ARCHIVE,Properties,UNKNOWN,DTD,HTML,GUI_DESIGNER_FORM,JFlex,PLAIN_TEXT,Images" />
-      <project id="consulo-junit" values="JAVA,PLAIN_TEXT,Properties,UNKNOWN,VTL,XML,HTML,GUI_DESIGNER_FORM,JAR_ARCHIVE" />
-      <project id="JythonTest" values="Python,UNKNOWN" />
-      <project id="testprojectExclude" values="UNKNOWN" />
-      <project id="consulo-makefile" values="Properties,XML,PLAIN_TEXT,Images,UNKNOWN,JFlex,JAVA" />
-      <project id="lesscss4j" values="JAVA,PLAIN_TEXT,XML,JAR_ARCHIVE,UNKNOWN" />
-      <project id="CppTools" values="PLAIN_TEXT,Markdown,XML,DTD,UNKNOWN,GUI_DESIGNER_FORM,JAVA,Images,Properties,C/C++,IDEA_MODULE,VTL,JFlex,HTML" />
-      <project id="consulo-spring" values="JFlex,JAVA,VTL,XML,DTD,JAR_ARCHIVE,Properties,UNKNOWN,PLAIN_TEXT,Images,GUI_DESIGNER_FORM,HTML" />
-      <project id="consulo-velocity" values="JAVA,IDEA_MODULE,JAR_ARCHIVE,VTL,JFlex,PLAIN_TEXT,Properties,Images,UNKNOWN,XML,HTML" />
-      <project id="consulo-intellij" values="CLASS,JAVA,UNKNOWN,Images,IDEA_MODULE,JAR_ARCHIVE,PLAIN_TEXT,XML" />
-      <project id="consulo-google-app-engine-api" values="JAR_ARCHIVE,PLAIN_TEXT,JAVA,Native,Properties,XML,HTML,UNKNOWN,Images,GUI_DESIGNER_FORM" />
-      <project id="consulo-jflex" values="JAR_ARCHIVE,Images,XML,PLAIN_TEXT,GUI_DESIGNER_FORM,UNKNOWN,JFlex,JAVA,Properties" />
-      <project id="napile.classpath.draft" values="XML,PLAIN_TEXT,Properties,Napile,UNKNOWN" />
-      <project id="consulo-ceylon" values="Images,JAR_ARCHIVE,JFlex,XML,VTL,JAVA,Grammar,PLAIN_TEXT,UNKNOWN,IDEA_MODULE" />
-      <project id="napile.compiler.core" values="Markdown,JFlex,XML,PLAIN_TEXT,NXML,Properties,Grammar,VTL,JAVA,JAR_ARCHIVE,ZIP_ARCHIVE,Napile,IDEA_MODULE,UNKNOWN" />
-      <project id="RequireForDistTest" values="JAVA,UNKNOWN" />
-      <project id="consulo-dart" values="XML,Markdown,Dart,UNKNOWN,JAR_ARCHIVE,Properties,PLAIN_TEXT,JAVA,Images,JFlex,Grammar,ZIP_ARCHIVE,HTML,VTL,GUI_DESIGNER_FORM" />
-      <project id="untitled48" values="JAR_ARCHIVE,UNKNOWN,JAVA" />
-      <project id="consulo-haxe" values="VTL,HTML,UNKNOWN,JAVA,Properties,haXe,PLAIN_TEXT,JFlex,GUI_DESIGNER_FORM,Images,Grammar,XML,JAR_ARCHIVE" />
-      <project id="consulo-osgi" values="XML,UNKNOWN,Properties,Images,JAR_ARCHIVE,JAVA,HTML,BND,IDEA_MODULE,GUI_DESIGNER_FORM,MANIFEST,PLAIN_TEXT" />
-      <project id="consulo-batch" values="Properties,PLAIN_TEXT,UNKNOWN,XML,Images,GUI_DESIGNER_FORM,JFlex,JAVA" />
-      <project id="consulo-bnf" values="Properties,XML,UNKNOWN,JAR_ARCHIVE,MANIFEST,JAVA,Grammar,PLAIN_TEXT,HTML,Images,JFlex" />
-      <project id="consulo-javafx" values="Images,PLAIN_TEXT,HTML,ZIP_ARCHIVE,GUI_DESIGNER_FORM,XML,Groovy,VTL,JAVA,JavaScript,UNKNOWN,JAR_ARCHIVE,CSS" />
-      <project id="www2" values="UNKNOWN,JAVASCRIPT,Properties,Images,JAVA,CSS,XML,JSP" />
-      <project id="consulo-regexp" values="RegExp,HTML,UNKNOWN,Images,JAVA,XML,PLAIN_TEXT,Markdown,GUI_DESIGNER_FORM,JFlex" />
-      <project id="consulo-javascript" values="Markdown,UNKNOWN,Images,Properties,JFlex,JAVA,XML,HTML,GUI_DESIGNER_FORM,PLAIN_TEXT,JAR_ARCHIVE" />
-      <project id="consulo-clojure" values="JAVA,ZIP_ARCHIVE,XML,JAR_ARCHIVE,GUI_DESIGNER_FORM,PLAIN_TEXT,JFlex,Images,Properties,VTL,HTML,UNKNOWN" />
-      <project id="consulo-relaxng" values="ZIP_ARCHIVE,UNKNOWN,JAR_ARCHIVE,HTML,XML,GUI_DESIGNER_FORM,JAVA,DTD,PLAIN_TEXT" />
-      <project id="untitled30" values="UNKNOWN,PLAIN_TEXT" />
-      <project id="trunk" values="HTML,PLAIN_TEXT,DTD,JAR_ARCHIVE,UNKNOWN,XML,JAVA,Properties" />
-      <project id="fdsfsdfds" values="UNKNOWN" />
-      <project id="consulo-git" values="PATCH,Markdown,UNKNOWN,XML,JAR_ARCHIVE,GUI_DESIGNER_FORM,PLAIN_TEXT,ZIP_ARCHIVE,Properties,JAVA,Groovy,Images" />
-      <project id="consulo-google-go" values="HTML,XML,JAR_ARCHIVE,PLAIN_TEXT,JAVA,Properties,Images,JFlex,GUI_DESIGNER_FORM,VTL,UNKNOWN" />
-      <project id="consulo-antlr4" values="UNKNOWN,Images,JAVA,XML,PLAIN_TEXT,ANTLR v4 grammar file,JAR_ARCHIVE" />
-      <project id="google-app-engine-api" values="Native,Images,JAR_ARCHIVE,Python,Properties,PHP,CSS,GUI_DESIGNER_FORM,PLAIN_TEXT,JAVA,UNKNOWN,XML,HTML,JAVASCRIPT" />
-      <project id="fenom" values="XML,UNKNOWN,Markdown,YAML,PHP,PLAIN_TEXT,JSON" />
-      <project id="consulo-dotnet" values="Native,XML,UNKNOWN,HTML,Markdown,Properties,JAVA,PLAIN_TEXT,JAR_ARCHIVE,GUI_DESIGNER_FORM,JFlex,CSS,Images,JavaScript,VTL" />
-      <project id="consulo-intelliLang" values="XML,HTML,UNKNOWN,GUI_DESIGNER_FORM,JAR_ARCHIVE,PLAIN_TEXT,JAVA" />
-      <project id="consulo-spellchecker" values="Images,UNKNOWN,GUI_DESIGNER_FORM,PLAIN_TEXT,HTML,Properties,JSP,XML,JAVA" />
-      <project id="consulo-ocaml" values="JFlex,UNKNOWN,Images,XML,PLAIN_TEXT,JAVA,GUI_DESIGNER_FORM" />
-      <project id="consulo-bash" values="JFlex,HTML,Properties,JAVA,JAR_ARCHIVE,UNKNOWN,Images,XML,GUI_DESIGNER_FORM,PLAIN_TEXT" />
-      <project id="consulo-napile.moduling" values="VTL,UNKNOWN,JAR_ARCHIVE,HTML,Images,XML,JAVA,PLAIN_TEXT" />
-      <project id="android" values="Images,PLAIN_TEXT,IDEA_MODULE,GUI_DESIGNER_FORM,JAVA,UNKNOWN,JAR_ARCHIVE,ZIP_ARCHIVE,JFlex,VTL,Properties,HTML,XML" />
-      <project id="TestProjecForDot" values="UNKNOWN,JAVA" />
-      <project id="www" values="CSS,JAVASCRIPT,XML,PLAIN_TEXT,JSP,Images,UNKNOWN" />
-      <project id="consulo-terminal" values="PLAIN_TEXT,JAVA,UNKNOWN,XML,JAR_ARCHIVE,Images,GUI_DESIGNER_FORM" />
-      <project id="consulo-github" values="JAR_ARCHIVE,JAVA,UNKNOWN,PLAIN_TEXT,GUI_DESIGNER_FORM,Markdown,XML,Images" />
-      <project id="consulo-ui-designer-core" values="Images,UNKNOWN,JAVA,JAR_ARCHIVE,PLAIN_TEXT,XML,Properties" />
-      <project id="untitled65" values="UNKNOWN,PLAIN_TEXT,Properties,JAVA,JAR_ARCHIVE" />
-      <project id="untitled63" values="UNKNOWN" />
-      <project id="consulo" values="GUI_DESIGNER_FORM,IDEA_MODULE,ZIP_ARCHIVE,PLAIN_TEXT,UNKNOWN,Groovy,XML,Images,CSS,Properties,JAVA,MANIFEST,Native,PATCH,DTD,VTL,JAR_ARCHIVE,Markdown,HTML,JFlex" />
-      <project id="consulo-coffescript" values="Images,UNKNOWN,XML,PLAIN_TEXT,JFlex,JAVA" />
-      <project id="consulo-copyright" values="GUI_DESIGNER_FORM,JAVA,UNKNOWN,PLAIN_TEXT,XML,VTL" />
-      <project id="consulo-emacs" values="UNKNOWN,ARCHIVE,XML,HTML,IDEA_MODULE,JAVA,Native,Properties,PLAIN_TEXT,Images,GUI_DESIGNER_FORM" />
-      <project id="consulo-testng" values="VTL,GUI_DESIGNER_FORM,JAVA,ZIP_ARCHIVE,PLAIN_TEXT,UNKNOWN,JAR_ARCHIVE,DTD,Images,XML,HTML" />
-      <project id="consulo-ui-designer" values="HTML,UNKNOWN,Images,PLAIN_TEXT,JAVA,GUI_DESIGNER_FORM,Properties,JAR_ARCHIVE,XML" />
-      <project id="bashsupport" values="Properties,UNKNOWN,XML,HTML,JAR_ARCHIVE,GUI_DESIGNER_FORM,PLAIN_TEXT,JAVA,JFlex,Images" />
-      <project id="consuloTest" values="XTEND,PHP,Grammar,JAR_ARCHIVE,Handlebars/Mustache,GetText,PLAIN_TEXT,Dart,CSS,Google Go,Python,HTML,JAVASCRIPT,UNKNOWN,Groovy,Markdown,MANIFEST,XML,Protobuf,Pig file,BND,JAVA,SQL files" />
-      <project id="javascript" values="JAVASCRIPT,UNKNOWN,GUI_DESIGNER_FORM,PLAIN_TEXT,JAR_ARCHIVE,JFlex,JAVA,Images,Properties,XML,HTML" />
-      <project id="consulo-manifest" values="UNKNOWN,MANIFEST,XML,JAVA,HTML,PLAIN_TEXT,Images" />
-      <project id="consulo-cpp" values="PLAIN_TEXT,JFlex,UNKNOWN,Images,IDEA_MODULE,Properties,GUI_DESIGNER_FORM,JAVA,XML" />
-      <project id="consulo-maven" values="JAR_ARCHIVE,GUI_DESIGNER_FORM,ZIP_ARCHIVE,VTL,Groovy,PLAIN_TEXT,HTML,XML,JAVA,Images,Properties,UNKNOWN" />
-      <project id="consulo-apache-velocity" values="PLAIN_TEXT,VTL,IDEA_MODULE,Properties,JFlex,JAVA,XML,JAR_ARCHIVE,UNKNOWN,Images,HTML" />
-      <project id="consulo-apache-ant" values="JAVA,HTML,XML,Properties,PLAIN_TEXT,JAR_ARCHIVE,UNKNOWN,GUI_DESIGNER_FORM,DTD" />
-      <project id="consulo-ruby" values="IDEA_MODULE,PLAIN_TEXT,HTML,JFlex,Images,ZIP_ARCHIVE,JavaScript,VTL,Properties,XML,JAR_ARCHIVE,GUI_DESIGNER_FORM,UNKNOWN,JAVA,CSS" />
-      <project id="idea-configuration-server" values="Properties,GUI_DESIGNER_FORM,XML,JAVA,UNKNOWN,JAR_ARCHIVE" />
-      <project id="consulo-twig" values="JAVA,JFlex,JAR_ARCHIVE,PLAIN_TEXT,Properties,XML,UNKNOWN" />
-      <project id="0.7_0" values="XML,Images,HTML,JAVASCRIPT,PLAIN_TEXT,UNKNOWN" />
-      <project id="untitled2" values="XML,CSS,MANIFEST,UNKNOWN" />
-      <project id="Hello" values="XML,UNKNOWN,HTML,JAVA,CLASS,JAVASCRIPT,PLAIN_TEXT,Images" />
-      <project id="cdmarf" values="XML,UNKNOWN,JAVA,ARCHIVE" />
-      <project id="consulo-cfml" values="IDEA_MODULE,Properties,JFlex,Images,PLAIN_TEXT,VTL,JAR_ARCHIVE,UNKNOWN,JAVA,HTML,GUI_DESIGNER_FORM,XML" />
-      <project id="consulo-google-dart" values="JAR_ARCHIVE,Grammar,PLAIN_TEXT,HTML,XML,Properties,ZIP_ARCHIVE,UNKNOWN,Images,JFlex,JAVA,VTL,GUI_DESIGNER_FORM" />
-      <project id="consulo-xml" values="XML,JAVA,HTML,ZIP_ARCHIVE,JFlex,Perl,JAR_ARCHIVE,GUI_DESIGNER_FORM,UNKNOWN,PLAIN_TEXT,Properties,DTD" />
-      <project id="consulo-restclient" values="GUI_DESIGNER_FORM,JAR_ARCHIVE,PLAIN_TEXT,Images,JAVA,UNKNOWN,XML" />
-      <project id="consulo-configuration-server" values="GUI_DESIGNER_FORM,JAR_ARCHIVE,XML,PLAIN_TEXT,Properties,JAVA,UNKNOWN" />
-      <project id="napile.web" values="Images,JAVASCRIPT,PLAIN_TEXT,UNKNOWN,Play,Properties,CSS,Play Route File,JAR_ARCHIVE,XML,PlayApplicationConf,HTML,JAVA,CLASS,IDEA_MODULE" />
-      <project id="g-app-test" values="Properties,CLASS,PHP,Google Go,XML,UNKNOWN,JAR_ARCHIVE,Python,HTML,Images,JAVA" />
-      <project id="consulo-cucumber" values="Images,Properties,VTL,UNKNOWN,GUI_DESIGNER_FORM,JAR_ARCHIVE,HTML,PLAIN_TEXT,Groovy,JAVA,XML" />
-      <project id="core" values="Properties,Images,HTML,IDEA_MODULE,GUI_DESIGNER_FORM,JAVA,VTL,XML,DTD,UNKNOWN" />
-      <project id="consulo-google-protobuf" values="JFlex,PLAIN_TEXT,Properties,UNKNOWN,XML,VTL,HTML,Grammar,JAR_ARCHIVE,Images,JAVA" />
-      <project id="consulo-freemarker" values="UNKNOWN,JAVA,PLAIN_TEXT,Images,JFlex,XML" />
-      <project id="consulo-mybatis" values="Images,JAR_ARCHIVE,PLAIN_TEXT,JAVA,UNKNOWN,XML" />
-      <project id="consulo-napile" values="Grammar Live Preview,VTL,IDEA_MODULE,UNKNOWN,JAR_ARCHIVE,XML,PLAIN_TEXT,Properties,GUI_DESIGNER_FORM,Images,ZIP_ARCHIVE,HTML,JAVA" />
-      <project id="google-gwt" values="JAVA,PLAIN_TEXT,CLASS,JAR_ARCHIVE,Properties,VTL,UNKNOWN,HTML,Images,XML,GUI_DESIGNER_FORM" />
+    <group name="svn working copy format">
+      <project id="trunk" values="1.7" />
     </group>
   </component>
   <component name="UsageTrigger">

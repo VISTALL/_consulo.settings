@@ -43,6 +43,7 @@
     <notification groupId="Plugins Lifecycle Group" displayType="STICKY_BALLOON" />
     <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
     <notification groupId="Idea Configuration Server" />
+    <notification groupId="File Watcher Messages" displayType="STICKY_BALLOON" />
     <toolWindow group="Git Messages" />
     <toolWindow group="FindInPath" />
     <toolWindow group="Database Navigator" />

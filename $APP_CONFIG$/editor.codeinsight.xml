@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="CSharpCodeInsightSettings">
+    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
   <component name="CodeInsightSettings">
     <option name="COMPLETION_CASE_SENSITIVE" value="1" />
     <option name="AUTOPOPUP_FOCUS_POLICY" value="3" />

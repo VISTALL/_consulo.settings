@@ -18,16 +18,16 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".options" type="PLAIN_TEXT" />
       <mapping pattern="NOTICE" type="PLAIN_TEXT" />
+      <mapping ext="beam" type="PLAIN_TEXT" />
       <mapping ext="domimplementationsourcelist" type="PLAIN_TEXT" />
-      <mapping ext="sql" type="PLAIN_TEXT" />
-      <mapping ext="vmoptions" type="PLAIN_TEXT" />
+      <mapping ext="g" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
+      <mapping ext="vmoptions" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="sql" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="rb" type="PLAIN_TEXT" />
       <mapping ext="twig" type="PLAIN_TEXT" />
-      <mapping ext="beam" type="PLAIN_TEXT" />
-      <mapping ext="g" type="PLAIN_TEXT" />
       <mapping ext="tag" type="XML" />
     </extensionMap>
   </component>

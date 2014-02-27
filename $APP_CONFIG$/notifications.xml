@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Vcs Minor Notifications" />
+    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Inspection Results" displayType="TOOL_WINDOW" />
+    <notification groupId="Compiler" displayType="NONE" />
+    <notification groupId="IDE Fatal Errors" displayType="NONE" />
+    <notification groupId="External Executable Critical Failures" displayType="STICKY_BALLOON" />
+    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Clean artifact" />
+    <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Parser Generator Log" displayType="NONE" />
+    <notification groupId="Grape" />
+    <notification groupId="Git Minor Notifications" />
+    <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Groovy DSL errors" />
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Execution" displayType="NONE" />
+    <notification groupId="Project Settings" />
+    <notification groupId="Plugin Error" />
+    <notification groupId="Compile" />
+    <notification groupId="Database Navigator" displayType="TOOL_WINDOW" />
+    <notification groupId="OSGi important errors" displayType="STICKY_BALLOON" />
+    <notification groupId="notification.group.id.gradle" displayType="TOOL_WINDOW" />
+    <notification groupId="File type recognized" />
+    <notification groupId="GoLang SDK validator" />
+    <notification groupId="Clojure" />
+    <notification groupId="update.available.group" displayType="STICKY_BALLOON" />
+    <notification groupId="github" />
+    <notification groupId="System Messages" />
+    <notification groupId="xxx" />
+    <notification groupId="Test Runner" displayType="NONE" />
+    <notification groupId="Project Loading Error" />
+    <notification groupId="HotSwap" displayType="TOOL_WINDOW" />
+    <notification groupId="Grammar Generator" />
+    <notification groupId="Find in Path" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Error Report" />
+    <notification groupId="Update Checker" displayType="STICKY_BALLOON" />
+    <notification groupId="Plugins Lifecycle Group" displayType="STICKY_BALLOON" />
+    <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
+    <toolWindow group="Git Messages" />
+    <toolWindow group="FindInPath" />
+    <toolWindow group="Database Navigator" />
+    <toolWindow group="Common Version Control Messages" />
+    <toolWindow group="HotSwap" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="notification.group.id.gradle" />
+    <toolWindow group="Inspection Results" />
+    <toolWindow group="Find in Path" />
+  </component>
+</application>
+

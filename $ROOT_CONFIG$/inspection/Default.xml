@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspections profile_name="Default" version="1.0" is_locked="false">
+  <option name="myName" value="Default" />
+  <option name="myLocal" value="true" />
+  <inspection_tool class="JavadocReference" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreObjectMethods" value="false" />
+    <option name="ignoreAnonymousClassMethods" value="false" />
+  </inspection_tool>
+  <inspection_tool class="TypeCanBeReplacedByVal" enabled="true" level="INFO" enabled_by_default="true" />
+</inspections>
+
